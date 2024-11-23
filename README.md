@@ -1,17 +1,17 @@
-# @weblueth/custom
+# @weblueth/accelmagiq
 
-@weblueth, custom template.
+Web Bluetooth react accelmagiq service.
 
-[Live Demo (GitHub Pages)](https://jp-rad.github.io/weblueth-custom/)
+[Live Demo (GitHub Pages)](https://jp-rad.github.io/amq-weblueth-accelmagiq/)
 
 ## Installation:
 
 ```bash
-npm install @weblueth/custom --save-dev
+npm install @weblueth/accelmagiq --save-dev
 ```
 
 or
 
 ```bash
-yarn add --dev @weblueth/custom
+yarn add --dev @weblueth/accelmagiq
 ```

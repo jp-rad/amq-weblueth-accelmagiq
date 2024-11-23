@@ -1,13 +1,13 @@
 {
-  "name": "@weblueth/custom",
-  "version": "0.0.0-alpha.1",
-  "description": "@weblueth, custom template.",
+  "name": "@weblueth/accelmagiq",
+  "version": "0.0.1-alpha",
+  "description": "Web Bluetooth react accelmagiq service.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jp-rad/weblueth-custom.git"
+    "url": "git+https://github.com/jp-rad/amq-weblueth-accelmagiq.git"
   },
   "targets": {
     "pages": {
@@ -36,12 +36,21 @@
   "author": "jp-rad",
   "license": "MIT",
   "devDependencies": {
+    "@types/events": "^3.0.0",
+    "@react-three/fiber": "^8.17.10",
     "@types/react": "^18.0.28",
+    "@types/three": "^0.169.0",
+    "@types/web-bluetooth": "^0.0.16",
     "process": "^0.11.10",
+    "react-spring": "^9.7.4",
+    "react-use-gesture": "^9.1.3",
+    "three": "^0.170.0",
     "tslib": "^2.5.0",
     "typescript": "^5.0.2"
   },
   "dependencies": {
+    "@weblueth/gattbuilder": "^0.0.5",
+    "@weblueth/react": "^0.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
